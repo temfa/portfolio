@@ -81,6 +81,13 @@ export const workSet = [
   },
 ];
 
+export const workImage = [
+  "/../components/assets/emmaomg.png",
+  "/../components/assets/fastcredit.png",
+  "/../components/assets/brookehowse.png",
+  "/../components/assets/emmaomg.png",
+];
+
 export const testimonial = [
   {
     text: "Job well done! I am really impressed. He is very very good at what he does:) I would recommend Sagar and will rehire in the future for Frontend development.",
@@ -105,10 +112,11 @@ export const experience = [
     position: "Sr. Frontend Developer",
     duration: "July 2022 - Dec 2023",
     work: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "Ut pretium arcu et massa semper, id fringilla leo semper.",
-      "Sed quis justo ac magna.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "Developed and maintained dynamic, client-focused websites, ensuring a high level of functionality and user satisfaction.",
+      "Implemented responsive design principles, enhancing the accessibility and user experience across various devices",
+      "Utilized the latest web technologies and frameworks to stay at the forefront of industry trends",
+      "Collaborated with UX/UI designers to bring creative visions to life, balancing aesthetics with optimal functionality",
+      "Conducted thorough testing and debugging, ensuring the delivery of error-free, polished websites",
     ],
   },
   {

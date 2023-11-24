@@ -28,7 +28,7 @@
     padding: 32px;
     box-sizing: border-box;
     display: flex;
-    gap: 48px;
+    gap: 24px;
     background: var(--work-cont);
 }
 
@@ -38,6 +38,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: 28px;
+    width: 25%;
     /* 140% */
 }
 
@@ -45,6 +46,7 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
+    width: 50%;
 }
 
 .experienceMiddle>h2 {
@@ -77,6 +79,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+    width: 25%;
     /* 150% */
 }
 
@@ -85,5 +88,11 @@
         flex-direction: column;
         width: 100%;
         max-width: 100%;
+    }
+
+    .experienceBody>p,
+    .experienceMiddle,
+    .experienceBody>h2 {
+        width: 100%;
     }
 }

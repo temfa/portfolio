@@ -7,6 +7,12 @@ import Image from "next/image";
 import Goto from "@/svg-components/goto";
 
 const Work = () => {
+  // const [photoIndex, setPhotoIndex] = useState(0);
+  // const [isOpen, setIsOpen] = useState(false);
+
+  // console.log(workImage[photoIndex]);
+
+  // useEffect(() => {}, [photoIndex]);
   return (
     <Layout type={true}>
       <div className={styles.workContainer} id="work">
@@ -40,6 +46,28 @@ const Work = () => {
           );
         })}
       </div>
+      {/* {isOpen && (
+        <Lightbox
+          mainSrc={workImage[photoIndex]}
+          nextSrc={workImage[(photoIndex + 1) % workImage.length]}
+          prevSrc={workImage[(photoIndex + workImage.length - 1) % workImage.length]}
+          onCloseRequest={() => setIsOpen(false)}
+          onMovePrevRequest={() => {
+            if (photoIndex === 0) {
+              setPhotoIndex(workImage.length - 1);
+            } else {
+              setPhotoIndex(photoIndex - 1);
+            }
+          }}
+          onMoveNextRequest={() => {
+            if (photoIndex === workImage.length - 1) {
+              setPhotoIndex(0);
+            } else {
+              setPhotoIndex(photoIndex + 1);
+            }
+          }}
+        />
+      )} */}
     </Layout>
   );
 };

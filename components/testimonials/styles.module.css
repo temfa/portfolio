@@ -30,4 +30,8 @@
     .testimonialBody {
         flex-direction: column;
     }
+
+    .testimonialHeader>p {
+        font-size: 18px;
+    }
 }

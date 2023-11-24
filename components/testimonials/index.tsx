@@ -8,7 +8,7 @@ import SingleTestimonials from "../single-testimonials";
 const Testimonials = () => {
   return (
     <Layout type={false}>
-      <div className={styles.testimonialCont}>
+      <div className={styles.testimonialCont} id="testimonials">
         <div className={styles.testimonialHeader}>
           <Title title="Testimonials" />
           <p>Nice things people have said about me:</p>
