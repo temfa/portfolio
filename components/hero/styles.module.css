@@ -106,3 +106,24 @@
   height: 100%;
   border: 8px solid var(--background-white);
 }
+
+@media screen and (max-width:500px) {
+  .heroContainer {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .heroText {
+    width: 100%;
+  }
+
+  .heroIntro>h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+  }
+
+  .heroImg {
+    width: 70%;
+  }
+}

@@ -25,3 +25,9 @@
     display: flex;
     gap: 48px;
 }
+
+@media screen and (max-width:500px) {
+    .testimonialBody {
+        flex-direction: column;
+    }
+}

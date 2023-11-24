@@ -76,3 +76,9 @@
     padding: 6px;
     box-sizing: border-box;
 }
+
+@media screen and (max-width:500px) {
+    .getHead {
+        width: 100%;
+    }
+}

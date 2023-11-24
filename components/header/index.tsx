@@ -22,36 +22,40 @@ const Header = ({ theme }: { theme: string }) => {
           </div>
           {mobile ? <Close theme={theme} action={() => setMobile(!mobile)} /> : <Bar theme={theme} action={() => setMobile(!mobile)} />}
         </div>
-        {mobile ? (
-          <div className={styles.headerWrapper}>
-            <div className={styles.headerLinks}>
-              <Link href="/home#about">About</Link>
-              <Link href="/home#work">work</Link>
-              <Link href="/home#testimonials">testimonials</Link>
-              <Link href="/home#contact">contact</Link>
-            </div>
-            <div className={styles.divider}></div>
-            <div className={styles.headerActions}>
-              <div>
-                <p>Switch Theme</p>
-                {theme === "dark" ? (
-                  <Light
-                    action={() => {
-                      dispatch(setTheme("light"));
-                    }}
-                  />
-                ) : (
-                  <Dark
-                    action={() => {
-                      dispatch(setTheme("dark"));
-                    }}
-                  />
-                )}
-              </div>
-              <button>Download CV</button>
-            </div>
+        <div className={mobile ? `${styles.headerWrapper} ${styles.headerCont}` : styles.headerWrapper}>
+          <div
+            className={styles.headerLinks}
+            onClick={() => {
+              setMobile(false);
+            }}>
+            <Link href="/home#about">About</Link>
+            <Link href="/home#work">work</Link>
+            <Link href="/home#skills">skills</Link>
+            <Link href="/home#experience">experience</Link>
+            <Link href="/home#testimonials">testimonials</Link>
+            <Link href="/home#contact">contact</Link>
           </div>
-        ) : null}
+          <div className={styles.divider}></div>
+          <div className={styles.headerActions}>
+            <div>
+              <p>Switch Theme</p>
+              {theme === "dark" ? (
+                <Light
+                  action={() => {
+                    dispatch(setTheme("light"));
+                  }}
+                />
+              ) : (
+                <Dark
+                  action={() => {
+                    dispatch(setTheme("dark"));
+                  }}
+                />
+              )}
+            </div>
+            <button>Download CV</button>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -45,13 +45,13 @@
 
 .workBody .workImg {
     border-radius: 12px 0px 0px 12px;
-    border-right: 1px solid var(work-border);
+    border-right: 1px solid var(--work-border);
     background: var(--work-bg);
 }
 
 .workBodys .workImg {
     border-radius: 0px 12px 12px 0px;
-    border-left: 1px solid var(work-border);
+    border-left: 1px solid var(--work-border);
     background: var(--work-bg);
 }
 
@@ -86,7 +86,30 @@
     /* 150% */
 }
 
-.workList {
+.workList,
+.workGroup {
     display: flex;
     gap: 8px;
+}
+
+@media screen and (max-width: 500px) {
+    .workList {
+        flex-direction: column;
+    }
+
+    .workBody,
+    .workBodys {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .workImg,
+    .workText {
+        width: 100%;
+    }
+
+
+    .workImg {
+        padding: 24px;
+    }
 }

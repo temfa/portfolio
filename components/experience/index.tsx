@@ -7,7 +7,7 @@ import { experience } from "@/utils/data";
 const Experience = () => {
   return (
     <Layout type={false}>
-      <div className={styles.experienceContainer}>
+      <div className={styles.experienceContainer} id="experience">
         <div className={styles.experienceHeader}>
           <Title title="Experience" />
           <p>Here is a quick summary of my most recent experiences:</p>

@@ -21,10 +21,11 @@
     /* 140% */
 }
 
-.skillsBody {
+.skillsBody,
+.skillsGroup {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    gap: 48px
 }
 
 .skillsSingle {
@@ -45,4 +46,11 @@
     font-weight: 400;
     line-height: 28px;
     /* 155.556% */
+}
+
+@media screen and (max-width:500px) {
+    .skillsGroup {
+        flex-direction: column;
+    }
+
 }

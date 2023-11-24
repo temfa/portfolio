@@ -123,3 +123,10 @@ export const experience = [
     ],
   },
 ];
+
+export const group = (items: any, n: number) =>
+  items.reduce((acc: any, x: any, i: any) => {
+    const idx = Math.floor(i / n);
+    acc[idx] = [...(acc[idx] || []), x];
+    return acc;
+  }, []);

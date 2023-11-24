@@ -7,6 +7,7 @@ import Twitter from "@/svg-components/twitter";
 // import Figma from "@/svg-components/figma";
 import Image from "next/image";
 import Personal from "../assets/picture.jpg";
+import Linkedin from "@/svg-components/linkedin";
 
 const Hero = () => {
   return (
@@ -38,6 +39,9 @@ const Hero = () => {
             </div>
             <div>
               <Twitter />
+            </div>
+            <div>
+              <Linkedin />
             </div>
             {/* <div>
               <Figma />

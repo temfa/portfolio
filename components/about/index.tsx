@@ -8,7 +8,7 @@ import Title from "../title";
 const AboutUs = () => {
   return (
     <Layout type={false}>
-      <div className={styles.aboutWrapper}>
+      <div className={styles.aboutWrapper} id="about">
         <Title title="About me" />
         <div className={styles.aboutBody}>
           <div className={styles.aboutImg}>
