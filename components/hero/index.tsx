@@ -17,7 +17,7 @@ const Hero = () => {
           <div className={styles.heroIntro}>
             <h2>Hi, I’m Temitope 👋</h2>
             <p>
-              CEO of Tema Digital Designs, I am a passionate Front-End Developer with a keen eye for design and a knack for turning ideas into seamless, user-centric web
+              {/* CEO of Tema Digital Designs, */}I am a passionate Front-End Developer with a keen eye for design and a knack for turning ideas into seamless, user-centric web
               experiences. Dedicated to creating visually stunning and functionally intuitive interfaces that leave a lasting impression.
             </p>
           </div>
