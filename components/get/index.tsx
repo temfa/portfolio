@@ -15,7 +15,7 @@ const GetInTouch = () => {
       <div className={styles.get} id="contact">
         <div className={styles.getHead}>
           <Title title="Get in touch" />
-          <p>What is next? Feel free to reach out to me if you're looking for a developer, have a query, or simply want to connect.</p>
+          <p>What is next? Feel free to reach out to me if you are looking for a developer, have a query, or simply want to connect.</p>
         </div>
         <div className={styles.getBody}>
           <div>

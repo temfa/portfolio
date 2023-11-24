@@ -34,7 +34,7 @@ const AboutUs = () => {
                 free time. You can follow me on Twitter where I share tech-related bites and build in public, or you can follow me on GitHub.
               </p>
               <p>Finally, some quick bits about me.</p>
-              <p>One last thing, I am available for freelance work, so feel free to reach out and say hello! I promise I don't bite 😉</p>
+              <p>One last thing, I am available for freelance work, so feel free to reach out and say hello! I promise I dont bite 😉</p>
             </div>
           </div>
         </div>
