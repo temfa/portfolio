@@ -49,8 +49,12 @@
 }
 
 @media screen and (max-width:500px) {
-    .skillsGroup {
+    .skillsBody {
         flex-direction: column;
+    }
+
+    .skillsGroup {
+        gap: 24px;
     }
 
 }

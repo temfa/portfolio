@@ -78,7 +78,19 @@
 }
 
 @media screen and (max-width:500px) {
-    .getHead {
+
+    .getHead,
+    .getBody,
+    .getBody div {
         width: 100%;
     }
+
+    .getBody div p {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: -0.36px;
+    }
+
 }
