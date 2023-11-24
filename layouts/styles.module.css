@@ -1,0 +1,16 @@
+.layoutWrapper {
+  width: 100%;
+  background-color: var(--background-white);
+}
+
+.layoutWrappers {
+  width: 100%;
+  background-color: var(--background-grey);
+}
+
+.layoutContainer {
+  width: 88%;
+  max-width: 1120px;
+  margin: 0px auto;
+  padding: 96px 0px;
+}

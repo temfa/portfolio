@@ -1,0 +1,78 @@
+.get {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+}
+
+.getHead {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 47%;
+    margin: 0px auto;
+    align-items: center;
+}
+
+.getHead>p {
+    color: var(--title-color);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 140% */
+}
+
+.getBody {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.getBody div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.getBody div p {
+    color: var(--color-text);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    /* 111.111% */
+    letter-spacing: -0.72px;
+}
+
+.getBody div svg:last-child {
+    cursor: pointer;
+}
+
+.getFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.getFooter>p {
+    color: var(--title-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+.getFooter div {
+    display: flex;
+    gap: 4;
+}
+
+.getFooter div svg {
+    padding: 6px;
+    box-sizing: border-box;
+}

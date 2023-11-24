@@ -1,0 +1,92 @@
+.workContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+}
+
+.workHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.workHeader>p {
+    color: var(--title-color);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 140% */
+}
+
+.workBody {
+    display: flex;
+    border-radius: 12px;
+    background: var(--work-cont);
+    box-shadow: 0px 2px 2px 0px var(--shadow-first), 0px 4px 3px 0px var(--shadow-second);
+}
+
+.workBodys {
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 12px;
+    background: var(--work-cont);
+    box-shadow: 0px 2px 2px 0px var(--shadow-first), 0px 4px 3px 0px var(--shadow-second);
+}
+
+.workImg,
+.workText {
+    width: 50%;
+    padding: 48px;
+    box-sizing: border-box;
+}
+
+.workBody .workImg {
+    border-radius: 12px 0px 0px 12px;
+    border-right: 1px solid var(work-border);
+    background: var(--work-bg);
+}
+
+.workBodys .workImg {
+    border-radius: 0px 12px 12px 0px;
+    border-left: 1px solid var(work-border);
+    background: var(--work-bg);
+}
+
+.workImg img {
+    width: 100%;
+    height: 384px;
+}
+
+.workText {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.workText>h2 {
+    overflow: hidden;
+    color: var(--color-text);
+    text-overflow: ellipsis;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 140% */
+}
+
+.workText>p {
+    color: var(--title-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+.workList {
+    display: flex;
+    gap: 8px;
+}

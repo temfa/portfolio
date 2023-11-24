@@ -1,0 +1,48 @@
+.skillsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.skillsHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.skillsHeader>p {
+    color: var(--title-color);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 140% */
+}
+
+.skillsBody {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.skillsSingle {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.skillsSingle svg {
+    height: 64px;
+}
+
+.skillsSingle>p {
+    color: var(--title-color);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 155.556% */
+}

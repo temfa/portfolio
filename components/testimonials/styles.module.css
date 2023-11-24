@@ -1,0 +1,27 @@
+.testimonialCont {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+}
+
+.testimonialHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.testimonialHeader>p {
+    color: var(--title-color);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 140% */
+}
+
+.testimonialBody {
+    display: flex;
+    gap: 48px;
+}
