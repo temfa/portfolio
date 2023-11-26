@@ -53,7 +53,11 @@ const Header = ({ theme }: { theme: string }) => {
                 />
               )}
             </div>
-            <button>Download CV</button>
+            <button>
+              <a href="/My-CV.pdf" rel="noopener noreferrer" download="Temitope Akinfe CV">
+                Download CV
+              </a>
+            </button>
           </div>
         </div>
       </div>

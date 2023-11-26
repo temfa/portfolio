@@ -7,9 +7,11 @@ import Typescript from "@/svg-components/typescript";
 import Emma from "../components/assets/emmaomg.png";
 import FastCredit from "../components/assets/fastcredit.png";
 import BrookeHowse from "../components/assets/brookehowse.png";
+import SmeApp from "../components/assets/smeapp.png";
 import Html from "@/svg-components/html";
 import Css from "@/svg-components/css";
 import Firebase from "@/svg-components/firebase";
+import PHP from "@/svg-components/php";
 
 export const skillsSet = [
   {
@@ -40,6 +42,10 @@ export const skillsSet = [
     skills: "Figma",
     icon: <Figma />,
   },
+  // {
+  //   skills: "PHP",
+  //   icon: <PHP />,
+  // },
   {
     skills: "Git",
     icon: <Git />,
@@ -53,39 +59,32 @@ export const skillsSet = [
 export const workSet = [
   {
     title: "Emmaomg",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
+    text: "Spearheaded the development of a visually stunning and highly functional portfolio website for EMMA OMG, focusing on showcasing achievements, content organization, and user engagement. Employed modern design trends and utilized React to create a dynamic, personalized experience tailored to the client's brand.",
     skills: ["React", "Figma", "Git", "CSS"],
     img: Emma,
     link: "https://www.emmaomg.com/",
   },
   {
     title: "Fastcredit",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
+    text: "Proud to have contributed to the success of Fast Credit, a leading fintech company in Nigeria. Through strategic web development, I played a key role in enhancing the online presence, user experience, and accessibility of their website. Leveraging cutting-edge technologies, my achievements with Fast Credit include optimizing the platform for speed, efficiency, and an overall seamless user journey. Excited to be part of a team driving financial technology innovation in Nigeria.",
     skills: ["React", "Figma", "Git", "CSS"],
     img: FastCredit,
     link: "https://fastcredit-ng.com/",
   },
   {
     title: "Brookehowse",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
+    text: "Collaborated with a real estate client to conceptualize and execute a comprehensive website allowing users to browse available properties, view details, and submit applications. Integrated user-friendly features enabling property search, filtering, and application submission, enhancing user engagement and streamlining the application process",
     skills: ["React", "Figma", "Git", "CSS", "Firebase"],
     img: BrookeHowse,
     link: "https://www.brookehowseestate.com/",
   },
   {
     title: "MySmeApp",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
-    skills: ["React", "Figma", "Git", "CSS", "Redux Toolkit"],
-    img: Emma,
-    link: "https://www.emmaomg.com/",
+    text: "MySmeApp pioneered by Ecobank is a revolutionary platform designed to bridge the gap between business owners and customers. As a dynamic web application, it goes beyond connecting enterprises with their clientele; it empowers seamless financial transactions. With MySMEApp, users can effortlessly conduct transfers and pay bills, transforming the way businesses and customers interact",
+    skills: ["NextJS", "Figma", "Git", "CSS", "Redux Toolkit"],
+    img: SmeApp,
+    link: "https://mysmeapp.ecobank.com/",
   },
-];
-
-export const workImage = [
-  "/../components/assets/emmaomg.png",
-  "/../components/assets/fastcredit.png",
-  "/../components/assets/brookehowse.png",
-  "/../components/assets/emmaomg.png",
 ];
 
 export const testimonial = [
@@ -115,19 +114,18 @@ export const experience = [
       "Developed and maintained dynamic, client-focused websites, ensuring a high level of functionality and user satisfaction.",
       "Implemented responsive design principles, enhancing the accessibility and user experience across various devices",
       "Utilized the latest web technologies and frameworks to stay at the forefront of industry trends",
-      "Collaborated with UX/UI designers to bring creative visions to life, balancing aesthetics with optimal functionality",
+      "Collaborated with UI/UX designers to bring creative visions to life, balancing aesthetics with optimal functionality",
       "Conducted thorough testing and debugging, ensuring the delivery of error-free, polished websites",
     ],
   },
   {
     company: "Freelancing",
     position: "Sr. Frontend Developer",
-    duration: "July 2018 - Present",
+    duration: "September 2019 - Present",
     work: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "Ut pretium arcu et massa semper, id fringilla leo semper.",
-      "Sed quis justo ac magna.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "Developed a responsive mini e-commerce platform leveraging React and Firebase, implementing features such as user authentication, product listings, cart functionality, and secure payment gateways.",
+      "Spearheaded the development of a visually stunning and highly functional portfolio website for EMMA OMG, focusing on showcasing achievements, content organization, and user engagement.",
+      "Collaborated with a real estate client to conceptualize and execute a comprehensive website allowing users to browse available properties, view details, and submit applications.",
     ],
   },
 ];
