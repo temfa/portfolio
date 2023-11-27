@@ -8,6 +8,7 @@ import Emma from "../components/assets/emmaomg.png";
 import FastCredit from "../components/assets/fastcredit.png";
 import BrookeHowse from "../components/assets/brookehowse.png";
 import SmeApp from "../components/assets/smeapp.png";
+import TapReady from "../components/assets/tapready.png";
 import Html from "@/svg-components/html";
 import Css from "@/svg-components/css";
 import Firebase from "@/svg-components/firebase";
@@ -58,32 +59,39 @@ export const skillsSet = [
 
 export const workSet = [
   {
+    title: "MySmeApp",
+    text: "MySmeApp pioneered by Ecobank is a revolutionary platform designed to bridge the gap between business owners and customers. As a dynamic web application, it goes beyond connecting enterprises with their clientele; it empowers seamless financial transactions. With MySMEApp, users can effortlessly conduct transfers and pay bills, transforming the way businesses and customers interact",
+    skills: ["NextJS", "Figma", "Git", "CSS", "Redux Toolkit", "Styled Components"],
+    img: SmeApp,
+    link: "https://mysmeapp.ecobank.com/",
+  },
+  {
     title: "Emmaomg",
     text: "Spearheaded the development of a visually stunning and highly functional portfolio website for EMMA OMG, focusing on showcasing achievements, content organization, and user engagement. Employed modern design trends and utilized React to create a dynamic, personalized experience tailored to the client's brand.",
-    skills: ["React", "Figma", "Git", "CSS"],
+    skills: ["ReactJS", "Figma", "Git", "CSS", "Firebase", "Styled Components"],
     img: Emma,
     link: "https://www.emmaomg.com/",
   },
   {
     title: "Fastcredit",
     text: "Proud to have contributed to the success of Fast Credit, a leading fintech company in Nigeria. Through strategic web development, I played a key role in enhancing the online presence, user experience, and accessibility of their website. Leveraging cutting-edge technologies, my achievements with Fast Credit include optimizing the platform for speed, efficiency, and an overall seamless user journey. Excited to be part of a team driving financial technology innovation in Nigeria.",
-    skills: ["React", "Figma", "Git", "CSS"],
+    skills: ["ReactJS", "Figma", "Git", "CSS", "Styled Components"],
     img: FastCredit,
     link: "https://fastcredit-ng.com/",
   },
   {
     title: "Brookehowse",
     text: "Collaborated with a real estate client to conceptualize and execute a comprehensive website allowing users to browse available properties, view details, and submit applications. Integrated user-friendly features enabling property search, filtering, and application submission, enhancing user engagement and streamlining the application process",
-    skills: ["React", "Figma", "Git", "CSS", "Firebase"],
+    skills: ["ReactJS", "Figma", "Git", "CSS", "Firebase", "Styled Components"],
     img: BrookeHowse,
     link: "https://www.brookehowseestate.com/",
   },
   {
-    title: "MySmeApp",
-    text: "MySmeApp pioneered by Ecobank is a revolutionary platform designed to bridge the gap between business owners and customers. As a dynamic web application, it goes beyond connecting enterprises with their clientele; it empowers seamless financial transactions. With MySMEApp, users can effortlessly conduct transfers and pay bills, transforming the way businesses and customers interact",
-    skills: ["NextJS", "Figma", "Git", "CSS", "Redux Toolkit"],
-    img: SmeApp,
-    link: "https://mysmeapp.ecobank.com/",
+    title: "Tapready",
+    text: "Tap Ready is a single page site for linkless technologies.",
+    skills: ["ReactJS", "Figma", "Git", "CSS", "Styled Components"],
+    img: TapReady,
+    link: "https://tap-ready.netlify.app/",
   },
 ];
 

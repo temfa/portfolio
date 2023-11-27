@@ -90,11 +90,22 @@
     /* 150% */
 }
 
-.workList,
-.workGroup {
-    display: flex;
-    gap: 8px;
+.workList {
+    width: 100%;
+    box-sizing: border-box;
 }
+
+.workList>h2 {
+    display: inline-flex;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    /* gap: 8px;
+    width: fit-content; */
+}
+
+/* .workList {
+    display: inline-flex;
+} */
 
 @media screen and (max-width: 500px) {
     .workList {
@@ -115,5 +126,9 @@
 
     .workImg {
         padding: 24px;
+    }
+
+    .workImg img {
+        height: 150px;
     }
 }

@@ -5,6 +5,7 @@ import Title from "../title";
 import { group, workSet } from "@/utils/data";
 import Image from "next/image";
 import Goto from "@/svg-components/goto";
+import Link from "next/link";
 
 const Work = () => {
   // const [photoIndex, setPhotoIndex] = useState(0);
@@ -24,13 +25,15 @@ const Work = () => {
           return (
             <div className={(index + 1) % 2 == 0 ? styles.workBodys : styles.workBody} key={index}>
               <div className={styles.workImg}>
-                <Image src={item.img} alt="Work-img" />
+                <Link href={item.link} target="_blank">
+                  <Image src={item.img} alt="Work-img" />
+                </Link>
               </div>
               <div className={styles.workText}>
                 <h2>{item.title}</h2>
                 <p>{item.text}</p>
                 <div className={styles.workList}>
-                  {group(item.skills, 2)?.map((items: any, index2: number) => {
+                  {/* {group(item.skills, 2)?.map((items: any, index2: number) => {
                     return (
                       <div className={styles.workGroup} key={index2}>
                         {items.map((e: any, index3: number) => {
@@ -38,6 +41,9 @@ const Work = () => {
                         })}
                       </div>
                     );
+                  })} */}
+                  {item.skills?.map((e: any, index3: number) => {
+                    return <Title title={e} key={index3} />;
                   })}
                 </div>
                 <Goto link={item.link} />
