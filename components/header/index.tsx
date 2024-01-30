@@ -31,7 +31,9 @@ const Header = ({ theme }: { theme: string }) => {
               setMobile(false);
             }}>
             <Link href={`${pathname}#${"about"}`}>About</Link>
-            <Link href={`${pathname}#${"work"}`}>Work</Link>
+            <Link href={`${pathname}#${"work"}`} aria-label={"work"} title={"work"}>
+              Work
+            </Link>
             <Link href="#work">work</Link>
             <Link href="#skills">skills</Link>
             <Link href="#experience">experience</Link>
