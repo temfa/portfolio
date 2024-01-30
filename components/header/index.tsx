@@ -28,12 +28,12 @@ const Header = ({ theme }: { theme: string }) => {
             onClick={() => {
               setMobile(false);
             }}>
-            <Link href="/home#about">About</Link>
-            <Link href="/home#work">work</Link>
-            <Link href="/home#skills">skills</Link>
-            <Link href="/home#experience">experience</Link>
-            <Link href="/home#testimonials">testimonials</Link>
-            <Link href="/home#contact">contact</Link>
+            <Link href="/#about">About</Link>
+            <Link href="/#work">work</Link>
+            <Link href="/#skills">skills</Link>
+            <Link href="/#experience">experience</Link>
+            <Link href="/#testimonials">testimonials</Link>
+            <Link href="/#contact">contact</Link>
           </div>
           <div className={styles.divider}></div>
           <div className={styles.headerActions}>
