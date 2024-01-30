@@ -3,6 +3,7 @@ import styles from "./styles.module.css";
 import Logo from "../assets/my-logo.png";
 import Image from "next/image";
 import Link from "next/link";
+// import { usePathname } from "next/navigation";
 import Light from "@/svg-components/light";
 import { useDispatch } from "react-redux";
 import { setTheme } from "@/reduxtoolkit/slice/theme";
@@ -13,6 +14,7 @@ import Bar from "@/svg-components/bars";
 const Header = ({ theme }: { theme: string }) => {
   const [mobile, setMobile] = useState(false);
   const dispatch = useDispatch();
+  // const pathname = usePathname();
   return (
     <div className={styles.headerBody}>
       <div className={styles.headerContainer}>
@@ -28,12 +30,12 @@ const Header = ({ theme }: { theme: string }) => {
             onClick={() => {
               setMobile(false);
             }}>
-            <Link href="/#about">About</Link>
-            <Link href="/#work">work</Link>
-            <Link href="/#skills">skills</Link>
-            <Link href="/#experience">experience</Link>
-            <Link href="/#testimonials">testimonials</Link>
-            <Link href="/#contact">contact</Link>
+            <Link href="#about">About</Link>
+            <Link href="#work">work</Link>
+            <Link href="#skills">skills</Link>
+            <Link href="#experience">experience</Link>
+            {/* <Link href="#testimonials">testimonials</Link> */}
+            <Link href="#contact">contact</Link>
           </div>
           <div className={styles.divider}></div>
           <div className={styles.headerActions}>
