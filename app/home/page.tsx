@@ -9,7 +9,7 @@ import Skills from "@/components/skills";
 import Work from "@/components/work";
 import GetInTouch from "@/components/get";
 import { useAppSelector } from "@/reduxtoolkit/store/store";
-import Testimonials from "@/components/testimonials";
+// import Testimonials from "@/components/testimonials";
 import Experience from "@/components/experience";
 
 const HomePage = () => {
@@ -29,7 +29,7 @@ const HomePage = () => {
       <Skills />
       <Experience />
       <Work />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <GetInTouch />
       <Footer />
     </>
